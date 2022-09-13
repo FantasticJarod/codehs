@@ -18,8 +18,6 @@ public class Timeline
     
     private static void printTabs()
     {   
-        System.out.println("      |");
-        System.out.println("      |");
-        System.out.println("      |");
+        System.out.println("      |\n      |\n      |");
     }
 }
