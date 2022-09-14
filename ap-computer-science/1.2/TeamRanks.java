@@ -38,11 +38,6 @@ public class TeamRanks
 		temp = team8;
 		team8 = team9;
 		team9 = temp;
-		
-            
-
-
-		
 		/*
 		 * Don't edit below this line.
 		 * Enter your code above this comment.
