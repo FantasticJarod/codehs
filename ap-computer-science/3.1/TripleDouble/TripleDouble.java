@@ -14,21 +14,9 @@ public class TripleDouble
         System.out.println("How many assists did you have?");
         int assists = scanner.nextInt();
         
-        boolean x = false;
-        boolean y = false;
-        boolean z = false;
-        
-        if (points >= 10) {
-            x = true;
-        }
-        
-        if (rebounds >= 10) {
-            y = true;
-        } 
-        
-        if (assists >= 10) {
-            z = true;
-        }
+        boolean x = points >= 10;
+        boolean y = rebounds >= 10;
+        boolean z = assists >= 10;
         
         System.out.print("You got 10 or more points: " + x);
         System.out.print("You got 10 or more rebounds: " + y);
